@@ -20,11 +20,20 @@
 // // alert("Hello "+input);
 // alert(`hello ${user_name}`);
 
-let fruits=['Apple','Banana'];
-fruits.push('Orange');
-alert(fruits)
-fruits.pop();
-alert(fruits)
-fruits.unshift('Mango');
-alert(fruits);
-fruits.shift();
+// let fruits=['Apple','Banana'];
+// fruits.push('Orange');
+
+// fruits.pop();
+
+// fruits.unshift('Mango');
+
+// fruits.shift();
+
+const person ={
+    name:['Bob','Smith'],
+    age:32,
+    gender: 'male',
+    interests: ['music','skiing']
+}
+
+console.log(`My name is ${person.name[0]}. I am interested and ${person.interests[0]} and ${person.interests[1]}`);
