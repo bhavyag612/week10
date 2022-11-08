@@ -2,11 +2,20 @@
 //     console.log(i);
 // }
 
-for(let i=1;i<=10;i++){
-    console.log(2 **i);
-}
-i=1;
-while (i<=10){
-    console.log(2**i);
-    i++;
-}
+// for(let i=1;i<=10;i++){
+//     console.log(2 **i);
+// }
+// i=1;
+// while (i<=10){
+//     console.log(2**i);
+//     i++;
+// }
+let user_name; //prompt always return string
+do{
+    user_name= prompt("What is your name? "); //prompt always return string
+    //therefore convert into number
+    //if input is string, Number(user_name)=NaN
+
+}while(!(isNaN(Number(user_name))));
+// alert("Hello "+input);
+alert(`hello ${user_name}`);
