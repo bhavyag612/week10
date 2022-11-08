@@ -10,12 +10,21 @@
 //     console.log(2**i);
 //     i++;
 // }
-let user_name; //prompt always return string
-do{
-    user_name= prompt("What is your name? "); //prompt always return string
-    //therefore convert into number
-    //if input is string, Number(user_name)=NaN
+// let user_name; //prompt always return string
+// do{
+//     user_name= prompt("What is your name? "); //prompt always return string
+//     //therefore convert into number
+//     //if input is string, Number(user_name)=NaN
 
-}while(!(isNaN(Number(user_name))));
-// alert("Hello "+input);
-alert(`hello ${user_name}`);
+// }while(!(isNaN(Number(user_name))));
+// // alert("Hello "+input);
+// alert(`hello ${user_name}`);
+
+let fruits=['Apple','Banana'];
+fruits.push('Orange');
+alert(fruits)
+fruits.pop();
+alert(fruits)
+fruits.unshift('Mango');
+alert(fruits);
+fruits.shift();
