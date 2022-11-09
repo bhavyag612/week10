@@ -37,3 +37,8 @@ const person ={
 }
 
 console.log(`My name is ${person.name[0]}. I am interested and ${person.interests[0]} and ${person.interests[1]}`);
+
+for(let key in person){
+    console.log(key);
+    console.log(person[key]);
+}
